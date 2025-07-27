@@ -1,0 +1,132 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family:"Roboto", sans-serif;
+    background-color: var(--white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.main-tag {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.second-tag {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+.third-tag {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-links {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--navy-blue);
+}
+
+.header-links:hover,
+.header-links:focus {
+    color: var(--ocean)
+}
+
+.header-contacts {
+    font-style: normal;
+}
+
+.head-contact {
+    text-decoration: none;
+    color: var(--slate);
+}
+
+.head-contact:hover,
+.head-contact:focus {
+    color: var(--ocean)
+}
+
+.main {
+    background-color: var(--navy-blue);
+}
+
+.main-tag {
+    text-align: center;
+}
+
+.main-button {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--ocean); 
+}
+
+.second-tag {
+    text-align: center;
+}
+
+.profiles {
+    background-color: var(--cloud);
+}
+
+.profiles-list li {
+    background-color: var(--white);
+}
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer-text {
+    color: var(--cloud)
+}
