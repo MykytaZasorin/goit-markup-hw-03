@@ -211,12 +211,16 @@ max-width: 264px;
     background-color: var(--cloud);
 }
 
+.profiles .second-tag {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
 .profiles-list {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
     justify-content: center;
     gap: 24px;
+    padding-bottom: 120px;
 }
 
 .profiles-list li {
@@ -261,18 +265,14 @@ max-width: 264px;
     padding-top: 120px;
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-}
-
 .footer .logo {
-    padding: 100px 1169px 16px 156px;
+    padding-top: 100px;
+    padding-bottom: 16px;
 }
 
 .footer-text {
     color: var(--cloud);
-    padding: 0 1020px 100px 156px;
+    padding-bottom: 100px;
     max-width: 264px;
     max-height: 72px;
 }
