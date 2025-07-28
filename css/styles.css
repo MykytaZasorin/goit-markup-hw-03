@@ -225,6 +225,7 @@ max-width: 264px;
 
 .profiles-list li {
     background-color: var(--white);
+    width: calc((100% - 48px) /4);
 }
 
 .profiles-list .third-tag {
@@ -252,6 +253,7 @@ max-width: 264px;
 
 .porfolio-list li {
     border: var(--cornflower) solid 1px;
+    width: calc((100% - 48px) / 3);
 }
 
 .porfolio-list .third-tag {
