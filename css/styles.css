@@ -33,6 +33,12 @@ li {
     list-style-type: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family:"Roboto", sans-serif;
     background-color: var(--white);
@@ -208,16 +214,65 @@ max-width: 264px;
 .profiles-list {
     display: flex;
     padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: center;
+    gap: 24px;
 }
 
 .profiles-list li {
     background-color: var(--white);
 }
 
+.profiles-list .third-tag {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.profiles-text {
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.porfolio .second-tag {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.porfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
+.porfolio-list .third-tag {
+    padding: 32px 172px 8px 16px;
+}
+
+.porfolio-list .porfolio-text {
+    padding-right: 269px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
 .footer {
     background-color: var(--navy-blue);
+    padding-top: 120px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .logo {
+    padding: 100px 1169px 16px 156px;
 }
 
 .footer-text {
-    color: var(--cloud)
+    color: var(--cloud);
+    padding: 0 1020px 100px 156px;
+    max-width: 264px;
+    max-height: 72px;
 }
