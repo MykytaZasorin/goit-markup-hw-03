@@ -263,16 +263,16 @@ max-width: 264px;
 .footer {
     background-color: var(--navy-blue);
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .footer .logo {
     padding-top: 100px;
-    padding-bottom: 16px;
 }
 
 .footer-text {
     color: var(--cloud);
-    padding-bottom: 100px;
+    padding-top: 16px;
     max-width: 264px;
     max-height: 72px;
 }
