@@ -13,6 +13,22 @@
     --dairy: #fcfcfc;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     list-style-type: none;
 }
@@ -24,6 +40,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+}
+
+.header {
+    flex-direction: row;
 }
 
 .main-tag {
@@ -130,11 +150,3 @@ body {
 .footer-text {
     color: var(--cloud)
 }
-
-/* .container {
-    max-width:
-    padding-left: 
-    padding-right: 
-    margin-left: 
-    margin-right:
-} */
