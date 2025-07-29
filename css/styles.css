@@ -33,12 +33,6 @@ li {
     list-style-type: none;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
 body {
     font-family:"Roboto", sans-serif;
     background-color: var(--white);
@@ -214,8 +208,11 @@ body {
 }
 
 .advantages-list li {
-    width: calc((100% - 72px) / 4);
     max-width: 264px;
+}
+
+.advantages-list-cell {
+    width: calc((100% - 72px) / 4);
 }
 
 .advantages-list li h3 {
@@ -240,12 +237,18 @@ body {
 
 .profiles-list li {
     background-color: var(--white);
-    width: calc((100% - 48px) /4);
+    width: calc((100% - 72px) /4);
     border-radius: 0px 0px 4px 4px;
 }
 
 .profile-conteiner {
     padding: 32px 0;
+}
+
+.prof-list-cell img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .profiles-list .third-tag {
@@ -264,7 +267,6 @@ body {
 }
 
 .porfolio .second-tag {
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -272,7 +274,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-bottom: 120px;
     row-gap: 48px;
 }
 
@@ -281,19 +282,16 @@ body {
 }
 
 .porfolio-list .third-tag {
-    padding: 32px 172px 8px 16px;
     margin-bottom: 8px;
 }
 
 .porfolio-list .porfolio-text {
-    padding-right: 269px;
-    padding-bottom: 32px;
     padding-left: 16px;
 }
 
 .porfolio-conteiner {
     padding: 32px 16px;
-    border: var(--cornflower) solid 1px;
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
