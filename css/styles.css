@@ -210,9 +210,11 @@ body {
 .advantages-list {
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .advantages-list li {
+    width: calc((100% - 72px) / 4);
     max-width: 264px;
 }
 
@@ -226,7 +228,6 @@ body {
 }
 
 .profiles .second-tag {
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
