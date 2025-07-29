@@ -60,7 +60,6 @@ img {
 
 .header-nav {
     display: flex;
-    align-items: center;
 }
 
 .header-nav .logo {
@@ -74,12 +73,22 @@ img {
     gap: 40px;
 }
 
+.header-links {
+    padding: 24px 0;
+    align-items: baseline;
+}
+
 .contacts-list {
     display: flex;
+    flex-wrap: nowrap;
     gap: 40px;
     margin-left: 332px;
     padding-top: 24px;
     margin-right: 0;
+}
+
+.contacts-list a {
+    white-space: nowrap;
 }
 
 .main-tag {
@@ -123,7 +132,7 @@ img {
     text-decoration: none;
     font-weight: 500;
     color: var(--navy-blue);
-    display: block;
+/*     display: block; */
 }
 
 .header-links:hover,
