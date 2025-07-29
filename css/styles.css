@@ -277,18 +277,24 @@ body {
 }
 
 .porfolio-list li {
-    border: var(--cornflower) solid 1px;
     width: calc((100% - 48px) / 3);
 }
 
 .porfolio-list .third-tag {
     padding: 32px 172px 8px 16px;
+    margin-bottom: 8px;
 }
 
 .porfolio-list .porfolio-text {
     padding-right: 269px;
     padding-bottom: 32px;
     padding-left: 16px;
+}
+
+.porfolio-conteiner {
+    padding: 32px 16px;
+    border: var(--cornflower) solid 1px;
+    border-top: none;
 }
 
 .footer {
