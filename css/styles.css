@@ -43,7 +43,6 @@ body {
 }
 
 .container {
-/*     display: flex; */ - хз как
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -262,37 +261,41 @@ body {
     text-align: center;
 }
 
-.porfolio {
+.portfolio {
     padding: 120px 0 120px 0;
 }
 
-.porfolio .second-tag {
+.portfolio .second-tag {
     margin-bottom: 72px;
 }
 
-.porfolio-list {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
     gap: 24px;
     row-gap: 48px;
 }
 
-.porfolio-list li {
+.portfolio-list-cell {
     width: calc((100% - 48px) / 3);
 }
 
-.porfolio-list .third-tag {
+.portfolio-list .third-tag {
     margin-bottom: 8px;
 }
 
-.porfolio-list .porfolio-text {
+.portfolio-list .porfolio-text {
     padding-left: 16px;
 }
 
-.porfolio-conteiner {
+.portfolio-conteiner {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    width: 360px;
+    justify-content: center;
 }
 
 .footer {
