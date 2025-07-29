@@ -60,10 +60,11 @@ img {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .header-nav .logo {
-    padding-top: 24px;
+    padding-top: 24px 0;
     margin-right: 76px;
 }
 
@@ -83,7 +84,7 @@ img {
     flex-wrap: nowrap;
     gap: 40px;
     margin-left: 332px;
-    padding-top: 24px;
+    padding: 24px 0;
     margin-right: 0;
 }
 
